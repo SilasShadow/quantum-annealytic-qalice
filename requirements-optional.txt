@@ -1,0 +1,22 @@
+# Quantum Annealytics / QUBO libraries
+# ---------------------------------------------------
+# run >>: pip install -r requirements-optional.txt
+# ---------------------------------------------------
+# Optional libraries to experiment with QUBO / quantum-inspired methods.
+# Install via: pip install -r requirements-optional.txt
+# You can selectively enable pieces based on your platform.
+# ---------------------------------------------------
+# pyqubo: model QUBO problems as Python expressions
+pyqubo
+
+# dimod: binary quadratic model (BQM) utilities, shared by many samplers
+dimod
+
+# openjij: simulated annealing and quantum-inspired samplers
+openjij
+
+# D-Wave Ocean SDK (QUBO samplers, neal, tabu, etc.)
+dwave-ocean-sdk
+
+# Qiskit (to explore QAOA prototypes - pure quantum computing)
+qiskit

@@ -1,0 +1,14 @@
+# Minimal pip requirements for CI (kept in sync with environment.yml where possible)
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+networkx
+pydantic>=2
+typer
+pytest
+black
+ruff
+isort
+pre-commit

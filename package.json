@@ -1,0 +1,27 @@
+{
+  "name": "quantum-annealytics-lattice",
+  "version": "1.0.0",
+  "description": "Baseline repo for the FinTech Hackathon. This provides a clean Python 3.12 pipeline skeleton you can extend into: - classical segmentation (k-means, hierarchical, etc.) - QUBO-ready interfaces (plug in D-Wave/QAOA later) - feature engineering + evaluation loop",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SilasShadow/quantum-annealytics-lattice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SilasShadow/quantum-annealytics-lattice/issues"
+  },
+  "homepage": "https://github.com/SilasShadow/quantum-annealytics-lattice#readme",
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
+}

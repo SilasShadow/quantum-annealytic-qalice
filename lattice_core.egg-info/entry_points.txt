@@ -1,0 +1,2 @@
+[console_scripts]
+lattice = lattice_core.main:run

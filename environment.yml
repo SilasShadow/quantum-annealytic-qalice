@@ -1,0 +1,20 @@
+name: lattice
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - matplotlib
+  - networkx
+  - pydantic>=2
+  - pip:
+      - ruff
+      - black
+      - isort
+      - pre-commit
+      - pytest
+      - typer

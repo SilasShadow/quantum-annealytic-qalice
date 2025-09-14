@@ -1,0 +1,28 @@
+# Python
+pycache/
+*.py[cod]
+.egg-info/
+.venv/
+.env
+.envrc
+
+#Conda
+*.conda
+*.yml.lock
+
+#PyCharm
+.idea/
+
+#VSCode
+.vscode/
+
+#OS
+.DS_Store
+
+#Build & test artifacts
+build/
+dist/
+.coverage
+htmlcov/
+.pytest_cache/
+/*.egg-info/

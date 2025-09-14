@@ -1,0 +1,14 @@
+typer[all]
+numpy
+pandas
+scikit-learn
+scipy
+networkx
+typer
+
+[quantum]
+pyqubo
+dimod
+openjij
+dwave-ocean-sdk
+qiskit

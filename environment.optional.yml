@@ -1,0 +1,11 @@
+# run >>: conda env update -n lattice -f environment.optional.yml
+name: lattice
+channels: [conda-forge]
+dependencies:
+  - pip
+  - pip:
+      - pyqubo
+      - dimod
+      - openjij
+      - dwave-ocean-sdk
+      - qiskit

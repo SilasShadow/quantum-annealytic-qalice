@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+lattice_core/__init__.py
+lattice_core/cli.py
+lattice_core/main.py
+lattice_core.egg-info/PKG-INFO
+lattice_core.egg-info/SOURCES.txt
+lattice_core.egg-info/dependency_links.txt
+lattice_core.egg-info/entry_points.txt
+lattice_core.egg-info/requires.txt
+lattice_core.egg-info/top_level.txt
+tests/test_smoke.py
