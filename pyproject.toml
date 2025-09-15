@@ -1,6 +1,6 @@
 [tool.black]
 line-length = 100
-target-version = ["py312"]
+target-version = ["py313"]
 
 [tool.isort]
 profile = "black"
@@ -8,12 +8,13 @@ line_length = 100
 
 [tool.ruff]
 line-length = 100
-target-version = "py312"
+target-version = "py313"
 exclude = ["build", "dist", ".venv", ".mypy_cache"]
 
 [tool.pytest.ini_options]
 minversion = "8.0"
 addopts = "-ra -q"
+#addopts = "--ignore=tests/test_cli_stage1.py"
 testpaths = [
     "tests",
 ]

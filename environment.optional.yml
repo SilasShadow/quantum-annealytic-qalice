@@ -1,6 +1,9 @@
-# run >>: conda env update -n lattice -f environment.optional.yml
-name: lattice
-channels: [conda-forge]
+# mamba env update --prune -f environment.yml
+name: qAlice-Py313
+channels:
+  - conda-forge
+channel_priority: strict
+solver: libmamba
 dependencies:
   - pip
   - pip:
