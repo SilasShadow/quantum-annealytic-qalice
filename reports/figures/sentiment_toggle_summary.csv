@@ -1,0 +1,5 @@
+prefix,algo,silhouette,propensity_auc,top_decile_lift
+with_sentiment,kmeans,0.1970416326647999,0.6549304300103306,1.4142857142857144
+no_sentiment,kmeans,0.2347519198420915,0.6368438468491736,1.4428571428571428
+with_sentiment,qubo,N/A,N/A,N/A
+no_sentiment,qubo,N/A,N/A,N/A

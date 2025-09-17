@@ -20,3 +20,4 @@ dependencies:
   - ruff
   - isort
   - pre-commit>=3.0.0
+  - psutil

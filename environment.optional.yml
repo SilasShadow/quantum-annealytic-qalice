@@ -9,6 +9,7 @@ dependencies:
   - pip:
       - pyqubo
       - dimod
+      - dwave-neal
       - openjij
       - dwave-ocean-sdk
       - qiskit

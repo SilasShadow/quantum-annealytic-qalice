@@ -1,0 +1,10 @@
+{
+  "k": 8,
+  "M": 400,
+  "knn": 40,
+  "lambda1": 2.0,
+  "lambda2": 0.5,
+  "sweeps": 10000,
+  "reads": 64,
+  "prefix": "no_sentiment"
+}

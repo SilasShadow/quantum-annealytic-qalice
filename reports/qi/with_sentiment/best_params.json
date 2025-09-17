@@ -1,0 +1,11 @@
+{
+  "lambda1": 2.0,
+  "lambda2": 0.5,
+  "k": 8,
+  "selection_criteria": {
+    "feasible_count": 0,
+    "total_count": 9,
+    "best_silhouette": -1.0,
+    "best_balance_dev": 100.0
+  }
+}
