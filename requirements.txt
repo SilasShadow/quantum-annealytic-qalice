@@ -4,3 +4,5 @@ typer>=0.17.0
 pytest>=7.0.0
 pyarrow>=12.0.0
 psutil
+numba>=0.58.0
+dimod>=0.12

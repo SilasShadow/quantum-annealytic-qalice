@@ -1,7 +1,0 @@
-{
-  "silhouette": 0.2722509856602744,
-  "calinski_harabasz": 733.8208703783043,
-  "davies_bouldin": 1.5149150849322996,
-  "n_train": 39780,
-  "n_valid": 1408
-}

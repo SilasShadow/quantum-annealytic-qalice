@@ -26,3 +26,12 @@ dist/
 htmlcov/
 .pytest_cache/
 /*.egg-info/
+/_archive/.github/
+# noise
+node_modules/
+data/raw/
+data/processed/
+reports/
+venv/
+*.egg-info/
+__pycache__/

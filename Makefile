@@ -20,6 +20,7 @@ extras-pip: ## Layer optional quantum deps via pip requirements
 
 install: ## Editable install of the package (gives `qAlice` CLI)
 	$(PIP) install -e .
+	# For quantum extras: make extras-pip
 
 dev: ## One-shot: pre-commit hooks + quick smoke test
 	pre-commit install

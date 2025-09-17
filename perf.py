@@ -1,13 +1,22 @@
 # This logs per-algorithm wall time, CPU time, RSS,
 # Python peak memory, arch, etc., into bench_results.csv.
 
-import os, time, platform, functools, tracemalloc, psutil, csv
+import csv
+import functools
+import os
+import platform
+import time
+import tracemalloc
+
+import psutil
 
 RESULTS_CSV = os.environ.get("PIPELINE_BENCH_CSV", "bench_results.csv")
+
 
 def timed(name=None):
     def deco(fn):
         label = name or fn.__name__
+
         @functools.wraps(fn)
         def wrapper(*args, **kwargs):
             tracemalloc.start()
@@ -32,12 +41,23 @@ def timed(name=None):
                     "python": platform.python_version(),
                 }
                 write_row(row)
+
         return wrapper
+
     return deco
 
+
 def write_row(row):
-    fieldnames = ["algo", "wall_s", "cpu_s", "rss_MB", "peak_py_MB",
-                  "hostname", "arch", "python"]
+    fieldnames = [
+        "algo",
+        "wall_s",
+        "cpu_s",
+        "rss_MB",
+        "peak_py_MB",
+        "hostname",
+        "arch",
+        "python",
+    ]
     exists = os.path.exists(RESULTS_CSV)
     with open(RESULTS_CSV, "a", newline="") as f:
         w = csv.DictWriter(f, fieldnames=fieldnames)

@@ -1,8 +1,0 @@
-{
-  "source": "uci_enriched_local",
-  "file": "bank-additional-full.csv",
-  "n_rows": 41188,
-  "n_cols": 21,
-  "has_macro_fields": true,
-  "ingested_at_utc": "2025-09-15T15:43:33.064826+00:00"
-}
