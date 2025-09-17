@@ -1,0 +1,7 @@
+{
+  "silhouette": 0.19704163266479996,
+  "calinski_harabasz": 365.71399154980685,
+  "davies_bouldin": 1.6011944444084016,
+  "n_train": 39780,
+  "n_valid": 1408
+}

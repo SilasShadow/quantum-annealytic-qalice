@@ -1,5 +1,5 @@
 # ====== Config ======
-ENV_NAME ?= lattice
+ENV_NAME ?= qAlice-Py313
 PY       ?= python
 PIP      ?= python -m pip
 
@@ -9,16 +9,16 @@ help: ## Show available commands
 	@grep -E '^[a-zA-Z_-]+:.*?## ' $(MAKEFILE_LIST) | awk 'BEGIN {FS=":.*?## "}; {printf "  \033[36m%-22s\033[0m %s\n", $$1, $$2}'
 
 # ====== Env & deps ======
-env: ## Create the base conda env (Python 3.12, core libs)
-	conda env create -f environment.yml
+env: ## Create the base mamba env (Python 3.13, core libs)
+	mamba env create -f environment.yml
 
-extras-conda: ## Layer optional quantum deps via conda env update
-	conda env update -n $(ENV_NAME) -f environment.optional.yml
+extras-mamba: ## Layer optional quantum deps via mamba env update
+	mamba env update -n $(ENV_NAME) -f environment.optional.yml
 
 extras-pip: ## Layer optional quantum deps via pip requirements
 	$(PIP) install -r requirements-optional.txt
 
-install: ## Editable install of the package (gives `lattice` CLI)
+install: ## Editable install of the package (gives `qAlice` CLI)
 	$(PIP) install -e .
 
 dev: ## One-shot: pre-commit hooks + quick smoke test
@@ -47,7 +47,7 @@ testv: ## Run tests verbosely
 	pytest -vv
 
 test-cov: ## Run tests with coverage (requires pytest-cov)
-	pytest --cov=lattice_core --cov-report=term-missing
+	pytest --cov=qalice_core --cov-report=term-missing
 
 # ====== Build / Package ======
 build-deps: ## Install build backend
@@ -61,7 +61,7 @@ run: ## Show CLI help
 	lattice --help
 
 hello: ## Demo CLI command
-	lattice hello --name "Lattice"
+	qalice hello --name "qAlice"
 
 # ====== Clean ======
 clean: ## Remove caches, build, coverage artifacts
