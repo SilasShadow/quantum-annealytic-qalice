@@ -1,6 +1,0 @@
--r requirements.txt
-dwave-ocean-sdk>=6.0.0
-neal>=0.6
-qiskit>=0.45.0
-numpy>=1.24.0
-openjij

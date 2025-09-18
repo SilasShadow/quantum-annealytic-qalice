@@ -1,0 +1,14 @@
+# Core scientific stack
+numpy>=1.24.0
+
+# QUBO modeling
+dimod>=0.12.0
+
+# Quantum-inspired annealing (CPU, SA + SQA)
+openjij>=0.7.0
+
+# Plotting / comparison
+matplotlib>=3.7.0
+
+# Speed / Efficiency
+numba>=0.58.0

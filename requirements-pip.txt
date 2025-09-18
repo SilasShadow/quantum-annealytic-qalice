@@ -1,2 +1,0 @@
-# only packages NOT available on conda-forge
-# conda run -n lattice-py312 python -m pip install --no-deps -r requirements-pip-only.txt

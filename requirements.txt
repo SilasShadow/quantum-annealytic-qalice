@@ -6,3 +6,10 @@ pyarrow>=12.0.0
 psutil
 numba>=0.58.0
 dimod>=0.12
+dwave-samplers>=1.6.0
+openjij
+pytest-cov>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
+pre-commit>=3.0.0
+
