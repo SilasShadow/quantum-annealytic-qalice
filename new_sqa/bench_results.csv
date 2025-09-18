@@ -32,3 +32,4 @@ run_openjij,55.891593,57.335399,425.57,220.54,Seras-MacBook-Pro.local,x86_64,3.1
 decode_best,0.004521,0.004529,421.61,0.0,Seras-MacBook-Pro.local,x86_64,3.13.7
 run_openjij,13.888354,54.14055,420.96,69.13,Seras-MacBook-Pro.local,x86_64,3.13.7
 decode_best,0.006666,0.077796,420.96,0.0,Seras-MacBook-Pro.local,x86_64,3.13.7
+build_qubo_fast,892.732147,866.74986,2061.2,4924.36,Seras-MacBook-Pro.local,x86_64,3.13.7
